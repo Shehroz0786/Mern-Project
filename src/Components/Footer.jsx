@@ -1,49 +1,66 @@
-import './Footer.css';
-import React from 'react'
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import pic from "../Images/Logo.png";
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
-import { BsTelephoneFill} from "react-icons/bs";
-import {RiWhatsappFill} from "react-icons/ri";
-import {FaFacebookF} from "react-icons/fa";
-import {BsTwitter} from "react-icons/bs";
-import {BsLinkedin} from "react-icons/bs";
 
+import './Footer.css'
+// import visa from '../images/visa.png'
 
-function ContainerFluidExample() {
-  return (
-    <Container fluid className='bg-light'>
-      <Row className='rowf'>
-        <Col className='CC' lg={6} md={12} xs={12}>
-        <div className="img1">
-            <img src={pic} alt="logo" />
-        </div>
-        <div className="nd">
-            <h5 className='text-primary'>Need Help?</h5>
-        </div>
-        <div className="num">
-           <p > <span><BsTelephoneFill className=' me-4 phnicon'/></span>(021) 111 172 782</p>
-            <p className='pclass'><span><RiWhatsappFill className=' me-4 ms-5 whticon'/></span>Chat with us</p>
-        </div>
-        <div className="icn">
-          <span><h2><FaFacebookF className=' faicon me-3'/><BsTwitter className=' bsicon me-3'/><BsLinkedin className=' bs1icon me-3'/></h2></span>
-        </div>
-        </Col>
-
-        <Col className='CC1 ' lg={4} xs={12}>
-        <Form>
-      <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label><h5 className=' h5 text-primary'>Get discounted offers and tips by email</h5></Form.Label>
-        <Form.Control type="email" placeholder="Your email adress" /></Form.Group>
-        <Button variant="warning" className='btn'><h6>Subscribe</h6></Button>
-      </Form>
-        </Col>
-      </Row>
-    </Container>
-  );
+function Footer(){
+    return(
+        <>
+        <footer>
+            <div className="footer-main">
+                <div className="footer-div1">
+                    <div className="f-links f">
+                        <h4>UseFul Links</h4>
+                        <p>
+                        <a href="#">Contact us</a><br/>
+                         <a href="#">Help &amp; About us</a><br/>
+                        <a href="#">Shipping &amp; Returns</a>
+                        <br/> <a href="#">Refund Policy</a>
+                        </p>
+                    </div>
+                    <div className="f-services f">
+                    <h4>Customer service</h4>
+                        <p>
+                        <a href="#">Orders</a><br/>
+                         <a href="#">Downloads</a><br/>
+                        <a href="#">Addresses</a>
+                        <br/> <a href="#">Account details</a>
+                        <br/> <a href="#">Logout</a>
+                        <br/> <a href="#">Lost password</a>
+                        </p>
+                    </div>
+                    <div className="f-delivery f">
+                    <h4>Delivery</h4>
+                        <p>
+                        <a href="#">How it Works</a><br/>
+                         <a href="#">Free Delivery</a><br/>
+                        <a href="#">FAQ</a>
+                        <br/> <a href="#">Payment methods</a>
+                        <br/> <a href="#">Delivery areas</a>
+                        </p>
+                    </div>
+                    <div className="f-contact f">
+                    <h4>Contact Us</h4>
+                    <hr />
+                    <h3> +61 (0) 383 766 284</h3>
+                    <hr />
+                    <p>noreply@envato.com</p>
+                    <hr />
+                    {/* <img src={visa} alt="visa" /> */}
+                    </div>
+                </div>
+                <hr style={{Color: '#65666C'}}/>
+                <div className="footer-div2">
+                    <div className="f-copy">
+                        <p>© 2021 Betheme by Muffin group | All Rights Reserved | Powered by WordPress</p>
+                    </div>
+                    <div className="f-privacy ">
+                        <p>Terms and conditions | Privacy policy | Cookies</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        </>
+    )
 }
 
-export default ContainerFluidExample;
+export default Footer;

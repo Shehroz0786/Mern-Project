@@ -1,0 +1,7 @@
+.newRow{
+    display: flex;
+    justify-content: space-between;
+}
+.conbus{
+    padding-top: 3%;
+}

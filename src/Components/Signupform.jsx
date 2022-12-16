@@ -5,14 +5,13 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import { Link } from 'react-router-dom';
-import Navbar from './Navbar';
 import './Signupform.css';
 
 function ContainerFluidExample() {
   return (
     <>
-    <Navbar/>
-    <Container fluid className='Ccol bg-primary'>
+
+    <Container fluid className='Ccol bg-secondary'>
       <Row>
         <Col className='Logcol bg-light' lg={5}>
         <Form>
@@ -39,7 +38,8 @@ function ContainerFluidExample() {
       <Form.Group className=" ch mb-3" controlId="formBasicCheckbox">
         <Form.Check type="checkbox" label="Accept Terms and Conditions" />
       </Form.Group>
-      <Button variant="primary mb-5" size='lg' type="submit">
+      <div className="log1">
+      <Button className=' sigbtn bg-primary mb-3' size='lg' type="submit">
         Sign Up
       </Button>
       <div className="login">
@@ -47,6 +47,7 @@ function ContainerFluidExample() {
         <Link to='/Loginform'>
         <h5>Login</h5>
         </Link>
+      </div>
       </div>
     </Form>
         </Col>

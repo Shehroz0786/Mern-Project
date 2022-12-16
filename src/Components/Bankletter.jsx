@@ -69,17 +69,11 @@ function Bankletter() {
         and Account No.:Account No.,from Start date to End date<br/><br/><br/>
         Sincerely
         </p>
-        </Col>
-        </Row>
-        <Col className='colbtn'>
         <Button variant="primary" size="md">
          GENERATE AND DOWNLOAD AS PDF
         </Button>
         </Col>
-       
-
-     
-      
+        </Row>
     </Container>
   );
 }

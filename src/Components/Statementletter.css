@@ -1,6 +1,4 @@
-.statement {
-    background-color: rgb(0, 110, 174);
-}
+
 .statement h5{
  width: 100%;
  margin-top: 5%;
@@ -10,6 +8,7 @@
 }
 .heading1{
     margin-left: 12%;
+    padding-top: 5%;
 }
 .icon{
     height:40%;

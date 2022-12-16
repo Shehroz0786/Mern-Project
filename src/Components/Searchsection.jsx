@@ -6,7 +6,7 @@ import './Searchsection.css'
 function Searchsection() {
   return (
     <>
-    <Container fluid className="bg-primary">
+    <Container fluid className="consearch">
       <Row>
         <Col className="Heading ">
             <p>Get your visa For</p>

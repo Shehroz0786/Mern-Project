@@ -6,7 +6,7 @@ import pic from "../Images/pic1.jpg";
 import { Link } from 'react-router-dom';
 function Destination() {
     return (
-        <Container fluid>
+        <Container fluid className=' condom bg-light' >
                <Row>
                 <Col className='HD'><h3>OUR TOP DESTINATIONS</h3></Col>
             </Row>
@@ -25,6 +25,7 @@ function Destination() {
                     </Link>
                 </Col>
             </Row>
+            
                 <Row className='row3'>
                 <Col className='col' lg={4} xs={12}>
                     <div className="img">
@@ -137,6 +138,7 @@ function Destination() {
                     </div>
                 </Col>
             </Row>
+          
         </Container>
     );
 }

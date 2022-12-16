@@ -1,12 +1,24 @@
 .Logcol{
     border-radius: 8%;
    margin-left: 28%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+
+}
+.sigbtn{
+    margin-left: 5%;
+   
+}
+.Ccol{
+    height: 100vh;
+    
+}
+.log1{
+    display: flex;
+    flex-direction: column;
 }
 .Logcol h2{
     color: steelblue;
     margin-top: 5%;
+  
 }
 .ch{
     color: steelblue;
@@ -15,7 +27,8 @@
 .login{
     display: flex;
    justify-content: center;
-   margin-bottom: 5%;
+   margin-bottom: 2%;
+  margin-top: 2%;
 }
 .login h5{
     color: steelblue;

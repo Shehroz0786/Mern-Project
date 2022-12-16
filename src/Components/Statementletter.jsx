@@ -8,7 +8,7 @@ import './Statementletter.css';
 
 function Statementletter() {
   return (
-    <Container fluid className='statement'>
+    <Container fluid className='bg-secondary'>
       <Row>
         <Col className=' heading ' lg={4} xs={12}>
         <h5 className='text-white heading1'>

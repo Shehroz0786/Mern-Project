@@ -1,0 +1,215 @@
+.form-container{
+   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Images/flight-bg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 800px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.form-container form{
+   background-color: rgba(68, 68, 90, 0.233);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 70%;
+   height: 55%;
+}
+
+
+
+.form-container input , .form-container span , .form-container label , .form-container input , .form-container select{
+   display: block;
+   font-size: 18px;
+   color: rgba(255, 255, 255, 0.781);
+   padding: 5px;
+   border: none;
+}  
+.form-container input , .form-container select , .form-container button {
+   font-size: 18px;
+   color: black;
+   height: 50px;
+   border-radius: 30px;
+   padding: 0px 20px;
+   border: 2px solid rgba(197, 179, 12, 0.445);
+   background: linear-gradient( rgba(243, 235, 235, 0.2) ,  rgba(117, 103, 103, 0.2)) !important;
+} 
+
+.travelStatus{
+   display: flex;
+   align-items: center;
+   height: 50px;
+}
+.travelStatus label, .travelStatus input{
+  height: 20px;
+}
+.travelStatus input{
+margin: 0px 20px;
+}
+
+.travelStatus label{
+   display: flex;
+   align-items: center;
+}
+
+.flying-div{
+   display: flex;
+}
+
+.flying-div label{
+  width: 40%;
+}
+.flying-div input{
+   width: 100%;
+ }
+
+.date-div{
+   display: flex;
+}
+
+.date-div div{
+   display: flex;
+   width: 40%;
+} 
+
+.date-div div label{
+   width: 50%;
+}
+.date-div div label input , .date-div div label select{
+   width: 100%;
+}
+
+.travelClass {
+   display: flex;
+   width: 40%;
+}
+.travelClass label {
+   width: 50%;
+}
+
+.travelClass label select , .travelClass label button {
+   width: 100%;
+}
+
+.form-container input:focus,
+.form-container select:focus{
+  outline: none;
+  border: none;
+}
+
+@media only screen and (max-width: 978px) and (min-width: 686px)  {
+   
+   .form-container {
+      height: 600px;
+   }
+
+   .form-container form{
+      width: 85%;
+   }
+   
+
+   .form-container input , .form-container span , .form-container label , .form-container input , .form-container select{
+      font-size: 16px;
+      padding: 5px;
+   }  
+   .form-container input , .form-container select , .form-container button {
+      font-size: 16px;
+      padding: 0px 10px;
+   } 
+   
+   .travelStatus{
+      display: flex;
+      align-items: center;
+      height: 50px;
+   }
+   .travelStatus label, .travelStatus input{
+     height: 20px;
+   }
+   .travelStatus input{
+   margin: 0px 10px;
+   }
+   
+   .flying-div label{
+     width: 50%;
+   }
+
+   .date-div div{
+      width: 50%;
+   } 
+   
+   .date-div div label{
+      width: 50%;
+   }
+   .travelClass {
+      width: 50%;
+   }
+   .travelClass label {
+      width: 50%;
+   }
+   
+}
+
+
+@media only screen and (max-width: 686px) and (min-width: 350px)  {
+   
+
+   .form-container {
+      height: 600px;
+   }
+
+   .form-container form{
+      width: 90%;
+   }
+   
+
+   .form-container input , .form-container span , .form-container label , .form-container input , .form-container select{
+      font-size: 14px;
+      padding: 5px;
+   }  
+   .form-container input , .form-container select , .form-container button {
+      font-size: 14px;
+      padding: 0px 10px;
+   } 
+   
+   .travelStatus{
+      display: flex;
+      align-items: center;
+      height: 50px;
+   }
+   .travelStatus label, .travelStatus input{
+     height: 20px;
+   }
+   .travelStatus input{
+   margin: 0px;
+   }
+
+   .flying-div{
+      flex-direction: column;
+   }
+
+   .flying-div label{
+     width: 100%;
+   }
+
+   .date-div{
+      flex-direction: column;
+   }
+
+   .date-div div{
+      width: 100%;
+   } 
+   
+   .date-div div label{
+      width: 50%;
+   }
+   .travelClass {
+      width: 100%;
+   }
+   .travelClass label {
+      width: 50%;
+   }
+   
+}

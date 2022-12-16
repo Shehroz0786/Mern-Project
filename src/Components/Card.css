@@ -1,0 +1,22 @@
+.main-slick{
+    width: 80%;
+    margin: 100px auto;
+    height: 340px;
+
+}
+
+.card-man{
+    text-align: center;
+    width: 90%;
+    height: 320px !important;
+    border: 2px solid grey !important;
+}
+
+
+.card-pic img{
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    background: skyblue;
+}
+

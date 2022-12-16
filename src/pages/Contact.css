@@ -1,0 +1,186 @@
+.cont-section{
+    background-color:#f7f8fb;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.contact-sect{
+    width: 80%;
+    margin: auto;
+    
+}
+.contact-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-main .contact-left{
+    width: 48%;
+}
+.contact-text h1{
+    font-size: 60px;
+    font-weight: 900;
+    margin: 15px 0;
+}
+.contact-text .getintouch{
+    font-size: 23px;
+    font-weight: 600;
+    font-family: monospace;
+    margin: 10px 0;
+}
+.contact-text p{
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+
+
+.email-div{
+    display: flex;
+    margin: 15px 5px;
+}
+.email-icon{
+    border-radius: 50%;
+    background-color: #f5ba6a;
+    height: 100%;
+    margin-top: 9px;
+    padding: 6px;
+}
+.mail{
+    font-size: 30px;
+}
+
+.email-content{
+    padding-left: 10px;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+.contact-main .contact-right{
+    width: 47%;
+    padding-bottom: 3%;
+}
+
+
+
+
+
+
+
+.contact-right .contact-form{
+    width: 98%;
+    height: 100%;
+    padding: 4%;
+    box-shadow: rgb(100 100 111 / 20%) 0 7px 29px 0;;
+ }
+ .contact-right .contact-form .contact-input{
+    width: 100%;
+    padding: 15px;
+    margin: 0 0 30px;
+    background-color: lightblue;
+    outline: none;
+    border: none;
+ }
+ .contact-right textarea{
+    padding: 15px;
+    border-color: #f1ebeb;
+    outline: none;
+    background-color: lightblue;
+    width: 100%;
+ }
+ .contact-right .contact-btn{
+    padding: 10px;
+    font-size: 17px;
+    outline: none;
+    color: white;
+    background: lightblue;
+    border: lightblue;
+    cursor: pointer;
+    border-radius: 5px;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 10px;
+ }
+ .contact-right .contact-btn:hover{
+    background-color: aqua;
+ }
+
+
+
+
+ .contact-address{
+    border: 7px solid #d9d9d9;
+    padding: 10px;
+    margin: 0 9px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+ }
+ .cont-info{
+    width: 50%;
+    padding: 10px;
+ }
+ .cont-info h3{
+    margin: 10px 0 25px 0;
+    color: blue;
+ }
+ .cont-info p{
+    margin: 15px 0;
+ }
+ .cont-map{
+    width: 50%;
+ }
+
+ @media screen and (max-width: 830px) and (min-width: 600px) {
+    .contact-sect{
+        width: 90%;        
+    }
+ }
+
+ @media screen and (max-width: 600px) and (min-width: 300px) {
+    .contact-sect{
+        width: 90%;
+    }
+    .contact-main{
+        flex-direction: column;
+    }
+    
+    .contact-main .contact-left{
+        width: 100%;
+    }      
+    .contact-main .contact-right{
+        width: 100%;
+    }
+    
+        .contact-right .contact-form .contact-input{
+        padding: 10px;
+        margin: 0 0 10px;
+       
+     }
+     .contact-right textarea{
+        padding: 10px;
+     }
+     .contact-right .contact-btn{
+        padding: 10px;
+        margin: 10px auto;
+     }
+     
+     .contact-address{
+        padding: 10px;
+        margin: 0 9px;
+        flex-direction: column;
+     }
+     .cont-info{
+        width: 100%;
+        padding: 10px;
+     }
+     .cont-info h3{
+        margin: 10px 0 25px 0;
+     }
+     .cont-info p{
+        margin: 15px 0;
+     }
+     .cont-map{
+        width: 100%;
+     }
+
+  }

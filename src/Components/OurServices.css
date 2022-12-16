@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap');
+
+.service-container {
+    width: 100% !important;
+    background: rgba(17, 17, 17, 0.096);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+}
+
+.service-container h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#111;
+    margin-bottom: 50px;
+}
+
+.service-container .services {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.service-container .services .card {
+    position: relative;
+    width: 20%;
+    height: 300px;
+    text-align: center;
+    background: #222;
+    cursor: pointer;
+}
+
+
+.service-container .services .card .content {
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+}
+
+
+.service-container .services .card .content .iconser {
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.service-container .services .card .content .iconser img {
+    width: 100%;
+    opacity: 0.5;
+    height: 100%;
+    margin-left: -5%;
+}
+
+.service-container .services .card .content .title {
+    font-size: 24px;
+    font-weight: 500;
+    color: chocolate;
+    background-color: rgba(34, 34, 34, 0.63);
+    transition: 0.3s;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    margin-left: -5%;
+    text-align: center;
+}
+
+.service-container .services .card .content .info {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+.service-container .services .card:hover .info {
+    z-index: 4;
+    opacity: 0.9;
+    color: white;
+}
+
+.service-container .services .card:hover .icon img {
+    opacity: 0.3;
+}
+
+.service-container .services .card:hover .title {
+    display: none;
+}

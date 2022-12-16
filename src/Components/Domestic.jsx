@@ -1,4 +1,3 @@
-import Navbar from './Navbar';
 import Header from './Header';
 import Searchsection from './Searchsection';
 import Statementletter from './Statementletter';
@@ -9,7 +8,6 @@ import React from 'react'
 export default function Domestic() {
   return (
     <>
-<Navbar/>
 <Header/>
 <Searchsection/>
 <Statementletter/>

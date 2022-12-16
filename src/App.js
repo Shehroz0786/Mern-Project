@@ -8,13 +8,36 @@ import {Route, Routes} from 'react-router-dom';
 import Home from'./Components/Home';
 import BankStatementletter from './Components/BankStatementletter';
 import CoverStatementletter from './Components/CoverStatementletter';
-// import Game from './Components/Game';
+// import { BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
+import HotelReservition from './pages/HotelReservition';
+import Tickets from './pages/Tickets';
+import TravelInsurance from './pages/TravelInsurance';
+import VisitVisa from './pages/VisitVisa';
+import UmrahPackages from './pages/UmrahPackages';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
+import TicketForm from './Components/TicketForm';
+import Card from './Components/Card';
+import OurServices from './Components/OurServices';
+import Contact from './pages/Contact';
+
+
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path='/Home' element={<Home/>}/>
+      <Route exact path='/' element={< Tickets />}></Route>
+			  <Route exact path='/TravelInsurance' element={<TravelInsurance/>}/>
+				<Route exact path='/HotelReservition' element={< HotelReservition />}></Route>
+				<Route exact path='/UmrahPackages' element={< UmrahPackages />}></Route>
+				<Route exact path='/Contact' element={< Contact />}></Route>
+        <Route exact path='/VisitVisa' element={<VisitVisa/>}/>
+
+
+       
         <Route path='/Home' element={<Home/>}/>
         <Route path='/BankStatementletter' element={<BankStatementletter/>}/>
         <Route path='/CoverStatementletter' element={<CoverStatementletter/>}/>
