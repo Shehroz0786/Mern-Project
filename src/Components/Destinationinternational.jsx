@@ -4,10 +4,8 @@ import Col from 'react-bootstrap/Col';
 import './Destinationinternational.css';
 import pic from "../Images/pic1.jpg";
 import { Link } from 'react-router-dom';
-import Sdata from './Sdata';
 
 function Destination() {
-    console.log(Sdata)
     return (
         <Container fluid>
             <Row>
@@ -28,58 +26,106 @@ function Destination() {
                     </Link>
                 </Col>
             </Row>
-            {
-                Sdata.map((val)=>{
-                    console.log(val.Heading)
-                    return(
-                    <Row className='row1'>
-                    <Col className='col' lg={4} xs={12}>
-                        <div className="img">
-                            <img src={pic} alt=" logo" />
-                        </div>
-                        <div className="hd">
-                            <p>From</p>
-                            <h6>{val.Heading} </h6>
-                        </div>
-                        <div className="hd1">
-                            <p>To</p>
-                            <h6>{val.Title}</h6>
-                        </div>
-                    </Col>
-                    <Col className='col' lg={4} xs={12}>
-                        <div className="img">
-                            <img src={pic} alt=" logo" />
-                        </div>
-                        <div className="hd">
-                            <p>From</p>
-                            <h6>{val.Heading} </h6>
-                        </div>
-                        <div className="hd1">
-                            <p>To</p>
-                            <h6>{val.Title}</h6>
-                        </div>
-                    </Col>
-                    <Col className='col' lg={4} xs={12}>
-                        <div className="img">
-                            <img src={pic} alt=" logo" />
-                        </div>
-                        <div className="hd">
-                            <p>From</p>
-                            <h6>{val.Heading} </h6>
-                        </div>
-                        <div className="hd1">
-                            <p>To</p>
-                            <h6>{val.Title}</h6>
-                        </div>
-                    </Col>
-                </Row>
-                    )
-                })
-            }
 
-          
+            <Row className='row1'>
+                <Col className='col' lg={4} xs={12}>
+                    <div className="img">
+                        <img src={pic} alt=" logo" />
+                    </div>
+                    <div className="hd">
+                        <p>From</p>
+                        <h6> Karachi</h6>
+                    </div>
+                    <div className="hd1">
+                        <p>To</p>
+                        <h6> Duabi</h6>
+                    </div>
+                </Col>
+                <Col className='col' lg={4} xs={12}>
+                <div className="img">
+                        <img src={pic} alt=" logo" />
+                    </div>
+                    <div className="hd">
+                        <p>From</p>
+                        <h6> Karachi</h6>
+                    </div>
+                    <div className="hd1">
+                        <p>To</p>
+                        <h6> Duabi</h6>
+                    </div>
+                </Col>
+                <Col className='col' lg={4} xs={12}>
+                <div className="img">
+                        <img src={pic} alt=" logo" />
+                    </div>
+                    <div className="hd">
+                        <p>From</p>
+                        <h6> Karachi</h6>
+                    </div>
+                    <div className="hd1">
+                        <p>To</p>
+                        <h6> Duabi</h6>
+                    </div>
+                </Col>
+            </Row>
 
-            
+            <Row className='row1'>
+            <Col className='col' lg={4} xs={12}>
+                    <div className="img">
+                        <img src={pic} alt=" logo" />
+                    </div>
+                    <div className="hd">
+                        <p>From</p>
+                        <h6> Karachi</h6>
+                    </div>
+                    <div className="hd1">
+                        <p>To</p>
+                        <h6> Duabi</h6>
+                    </div>
+                </Col>
+                <Col className='col' lg={4} xs={12}>
+                <div className="img">
+                        <img src={pic} alt=" logo" />
+                    </div>
+                    <div className="hd">
+                        <p>From</p>
+                        <h6> Karachi</h6>
+                    </div>
+                    <div className="hd1">
+                        <p>To</p>
+                        <h6> Duabi</h6>
+                    </div>
+                </Col>
+                <Col className='col' lg={4} xs={12}>
+                <div className="img">
+                        <img src={pic} alt=" logo" />
+                    </div>
+                    <div className="hd">
+                        <p>From</p>
+                        <h6> Karachi</h6>
+                    </div>
+                    <div className="hd1">
+                        <p>To</p>
+                        <h6> Duabi</h6>
+                    </div>
+                </Col>
+            </Row>
+
+            <Row className='row1'>
+            <Col className='col' lg={4} xs={12}>
+                <div className="img">
+                        <img src={pic} alt=" logo" />
+                    </div>
+                    <div className="hd">
+                        <p>From</p>
+                        <h6> Karachi</h6>
+                    </div>
+                    <div className="hd1">
+                        <p>To</p>
+                        <h6> Duabi</h6>
+                    </div>
+                </Col>
+            </Row>
         </Container>
     );
 }
