@@ -15,9 +15,9 @@ function Login() {
   return (
     <>
 
-    <Container fluid className='Ccol bg-secondary'>
+    <Container fluid className='Ccol1 bg-secondary'>
       <Row>
-        <Col className='Logcol bg-light' lg={5}>
+        <Col className='Logcol1 bg-light' lg={5}>
         <Form>
           <h2>LOGIN</h2>
         <FloatingLabel
