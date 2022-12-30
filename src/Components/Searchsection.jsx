@@ -9,12 +9,14 @@ import {BsDashCircle} from "react-icons/bs";
 import './Searchsection.css'
 
 function Searchsection() {
+
+
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
   const[value,setValue]=useState(0);
-  const[ num, setnum] = useState('')
+  const[ num, setnum] = useState('');
   const inc=()=>{
     if(value < 6){
       setValue (value + 1);
@@ -31,8 +33,9 @@ function Searchsection() {
     }
   }
 
+  
   const apply = ()=>{
-    setnum(value)
+    setnum(value);
 }
 
 
@@ -66,10 +69,10 @@ function Searchsection() {
         <p>TRAVELERS</p>
 
         <Button className='btntra' onClick={handleShow}>
-        {num} {handleClose} Traveler
+        {num}  Traveler
       </Button>
 
-      <Modal  show={show} onHide={handleClose}>
+      <Modal id='modal' show={show} onHide={handleClose}>
       <Row>
         <Col className='coltra'>
         <h4>Travelers</h4>
@@ -84,7 +87,7 @@ function Searchsection() {
       </Row> 
       <Row>
         <Col className='apply'lg={11} xs={11}>
-        <Button onClick={apply} >Apply </Button>
+        <Button onClick={apply}>Apply </Button>
         </Col>
       </Row>
       </Modal>
