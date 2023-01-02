@@ -90,3 +90,12 @@
 .service-container .services .card:hover .title {
     display: none;
 }
+@media screen and (max-width: 480px) { 
+
+    .service-container .services .card{
+      height: 30vh;
+      width: 30vh;
+   margin-bottom: 5%;
+    }
+
+}

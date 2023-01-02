@@ -1,6 +1,7 @@
 .Logcol{
     border-radius: 8%;
    margin-left: 28%;
+   margin-top: 1%;
 
 }
 .sigbtn{
@@ -42,7 +43,7 @@
     .Logcol{
         margin-left: 5%;
       width: 90%;
-    margin-top: 20%;
+    margin-top: 5%;
    
     }
     .Ccol{

@@ -1,4 +1,4 @@
-.Ccol{
+.Ccol1{
     height: 100vh;
 }
 .log{
@@ -9,13 +9,13 @@
    margin-left: 5%;
   
 }
-.Logcol{
+.Logcol1{
     border-radius: 8%;
    margin-left: 28%;
   margin-top: 1%;
   margin-bottom: 1%;
 }
-.Logcol h2{
+.Logcol1 h2{
     color: steelblue;
     margin-top: 5%;
 }
@@ -50,10 +50,15 @@ margin-bottom: 5%;
     text-decoration: underline;
 }
 @media screen and (max-width: 480px) {
-    .Logcol{
-        margin-left: 5%;
+    .Logcol1{
+     margin-left: 5%;
       width: 90%;
-      margin-bottom:8%;
-      margin-top: 8%;
+      margin-top: 5%;
+      margin-bottom: 2%;
+    
     }
+    .Ccol1{
+        height: 91vh;
+    }
+  
 }

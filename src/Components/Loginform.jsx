@@ -15,22 +15,23 @@ function Login() {
   return (
     <>
 
-    <Container fluid className='Ccol bg-secondary'>
+    <Container fluid className='Ccol1 bg-secondary'>
       <Row>
-        <Col className='Logcol bg-light' lg={5}>
+        <Col className='Logcol1 bg-light' lg={5}>
         <Form>
           <h2>LOGIN</h2>
+
         <FloatingLabel
-        controlId="floatingInput"
-        label="Email address"
-        className="mb-4 mt-4"
-      >
+        controlId="floatingInput" label="Email address" className="mb-4 mt-4">
         <Form.Control type="email" placeholder="name@example.com" />
-      </FloatingLabel>
-      <FloatingLabel className=' Pf mb-4 mt-4' controlId="floatingPassword" label="Password">
+        </FloatingLabel>
+
+        <FloatingLabel
+         className=' Pf mb-4 mt-4' controlId="Password" label="Password">
         <Form.Control type="password" placeholder="Password" />
         <p>Forgot Password?</p>
-      </FloatingLabel>
+        </FloatingLabel>
+
      <div className="log">
       <Button className='logbtn' variant="primary" size='lg' type="submit">
         Login
