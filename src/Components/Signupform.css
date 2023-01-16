@@ -1,8 +1,12 @@
 .Logcol{
     border-radius: 8%;
    margin-left: 28%;
-   margin-top: 1%;
+   margin-top: 6%;
 
+}
+.form-control{
+    margin-top: 2%;
+    margin-bottom: 5%;
 }
 .sigbtn{
     margin-left: 5%;
